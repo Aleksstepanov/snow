@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <Snowfall />
   </div>
 
@@ -13,5 +13,9 @@ import {Snowfall} from './components/Snowfall'
   background: #1a1a2e;
   height: 100vh;
   overflow: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 </style>
